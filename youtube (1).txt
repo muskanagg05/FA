@@ -1,0 +1,56 @@
+step 1: For Windows:
+
+pip install google-api-python-client
+
+For Ubuntu
+
+sudo pip install google-api-python-client
+
+For Anaconda
+
+pip install google-api-python-client
+
+2. Importing Libraries
+We will need Libraries to work upon our YouTube API extraction. Import them using the code below:
+
+from googleapiclient.discovery import build
+
+3. Open the link
+https://console.developers.google.com/projectselector2/apis/dashboard?pli=1&supportedpurview=project
+
+key----AIzaSyCwzo-NcvyXPRCRVbqcwippE4sJXN1dqVc
+
+key--- AIzaSyCXVjWiXVE0snnpXxzbHLThNz6s3oThD_8
+
+
+https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC-9-kyTW8ZkZNDHQJ6FgpwQ&maxResults=25&key=AIzaSyCXVjWiXVE0snnpXxzbHLThNz6s3oThD_8
+
+
+https://www.youtube.com/watch?v=AcUauzCn7RE
+https://www.youtube.com/watch?v=WtsS8sEzEeY
+https://towardsdatascience.com/what-is-api-and-how-to-use-youtube-api-65525744f520
+https://www.coursera.org/learn/social-media-data-analytics/supplement/4pizU/script-youtube-search-py
+
+IMP
+https://www.presentslide.in/2019/09/extracting-youtube-data-api-python.html
+https://www.youtube.com/watch?v=sbErTW2MzCY
+https://developers.google.com/youtube/v3/getting-started
+
+
+pip install findspark
+pip install pyspark
+
+
+https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC-9-kyTW8ZkZNDHQJ6FgpwQ&maxResults=25&key=AIzaSyDe_raL_FB-72PFQgiZpqQ8FfYlcVqNN7c
+
+
+1)https://tools.digitalmethods.net/netvizz/youtube/
+2)https://www.googleapis.com/youtube/v3/activities?part=snippet%2CcontentDetails&channelId=Channel_id&key=API
+3)https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&allThreadsRelatedToChannelId=Channel_id&key=YOUR_API_KEY
+4)https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=Video_id&key=YOUR_API_KEY
+
+
+https://www.googleapis.com/youtube/v3/activities?part=snippet%2CcontentDetails&channelId=UC6KKh6eK3DIBMznzBiA4XOw&key=AIzaSyCXVjWiXVE0snnpXxzbHLThNz6s3oThD_8
+
+https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=o3CDs--MZjw&key=AIzaSyCXVjWiXVE0snnpXxzbHLThNz6s3oThD_8
+
